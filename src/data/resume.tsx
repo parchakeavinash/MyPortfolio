@@ -2,62 +2,60 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
+  name: "Avinash Parchake",
+  initials: "AP",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
+  location: "India, Pune",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "A Data Engineer. Passionate about Building Data Pipelines and turn your Bad Data into Meaningful insight  .",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+    "My name is Avinash Parchake and i am a Data Professional with competencies in Data Analytics and Analytics Engineering. i am interested in building data pipelines, interactive dashboard, and generate insightful reports for business intelligence...",
+  avatarUrl: "/avatar.png",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
+    "SQL",
     "Python",
-    "Go",
+    "Power BI",
+    "Google sheet",
+    "MySql",
+    "Excel",
+    "Snowflake",
+    "AWS",
     "Postgres",
+    "Apache Spark",
     "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "Fivetran",
+    "kafka",
+    "Git",
+    "Terraform",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
+    email: "avinash.parchake5249@gmail.com",
     tel: "+123456789",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/parchakeavinash",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/avinash-parchake/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/AvinashParchake",
         icon: Icons.x,
 
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
@@ -72,113 +70,37 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Unified Mentor Pvt.Ltd",
+      // href: "https://atomic.finance",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
+      title: "Data Analytics Intern",
       logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "June 2024",
+      end: "Dec 2024",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
-    },
-    {
-      company: "Shopify",
-      badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
-    {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
-      badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "As a Data Analytics Intern at XYZ Corporation, I worked with the analytics team to collect, clean, and analyze large datasets, ensuring data integrity. Using SQL, Power BI, and Tableau, I created interactive dashboards and performed exploratory data analysis (EDA) to uncover trends and actionable insights. I also automated reporting tasks with Python, reducing turnaround time by 30%, and optimized a sales dashboard, enhancing usability and improving customer retention by 15%.",
     },
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
+      school: "GH Raisoni College of Engineering and Management, Pune",
+      href: "https://ghrcemp.raisoni.net/",
+      degree: "Bachelor's of Technology(Artificial Intelligence) ",
+      logoUrl: "/logo.jpeg",
       start: "2023",
       end: "2024",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
+      school: "Adarsh Sanskar Vidyalaya ",
+      href: "https://adarshsanskar.org/",
+      degree: "Higher Secondary Certificate (HSC)",
+      logoUrl: "/hsc_log.png",
+      start: "2018",
       end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
     },
   ],
-  projects: [
+  /*projects: [
     {
       title: "Chat Collect",
       href: "https://chatcollect.com",
@@ -278,7 +200,7 @@ export const DATA = {
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models",
       technologies: [
         "Next.js",
         "Typescript",
@@ -651,40 +573,40 @@ export const DATA = {
           title: "Source (API)",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/mattBlackDesign/human-huntr-rails",
-        },
-      ],
-    },
-    {
-      title: "Terrible Hacks V",
-      dates: "November 26th, 2016",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mock of Windows 11 with interesting notifications and functionality",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/terrible-hacks-v.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/TerribleHacks2016-Windows11",
-        },
-      ],
-    },
-    {
-      title: "Portal Hackathon",
-      dates: "October 29, 2016",
-      location: "Kingston, Ontario",
-      description:
-        "Developed an internal widget for uploading assignments using Waterloo's portal app",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/UWPortalSDK/crowmark",
-        },
-      ],
-    },
-  ],
-} as const;
+//         },
+//       ],
+//     },
+//     {
+//       title: "Terrible Hacks V",
+//       dates: "November 26th, 2016",
+//       location: "Waterloo, Ontario",
+//       description:
+//         "Developed a mock of Windows 11 with interesting notifications and functionality",
+//       image:
+//         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/terrible-hacks-v.png",
+//       links: [
+//         {
+//           title: "Source",
+//           icon: <Icons.github className="h-4 w-4" />,
+//           href: "https://github.com/justinmichaud/TerribleHacks2016-Windows11",
+//         },
+//       ],
+//     },
+//     {
+//       title: "Portal Hackathon",
+//       dates: "October 29, 2016",
+//       location: "Kingston, Ontario",
+//       description:
+//         "Developed an internal widget for uploading assignments using Waterloo's portal app",
+//       image:
+//         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
+//       links: [
+//         {
+//           title: "Source",
+//           icon: <Icons.github className="h-4 w-4" />,
+//           href: "https://github.com/UWPortalSDK/crowmark",
+//         },
+//       ],
+//     },
+//   ],
+// } as const;*/}
